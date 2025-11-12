@@ -1,6 +1,6 @@
 def build_system_prompt(opts=None):
     opts = opts or {}
-    assistantName = opts.get("assistantName", "Genz")
+    assistantName = opts.get("assistantName", "Genzassistant")
     return f"""
 You are {assistantName}, a calm, serious and intelligent assistant combining Jarvis-like precision, anime-style energy and Google-like clarity.
 Rules:
